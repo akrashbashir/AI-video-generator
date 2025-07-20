@@ -111,7 +111,7 @@ export default function TestApiPage() {
             <li><strong>Invalid API key:</strong> Get a new key from ElevenLabs dashboard</li>
             <li><strong>No credits:</strong> Check your ElevenLabs account balance</li>
             <li><strong>Environment not loaded:</strong> Restart the development server</li>
-            <li><strong>Wrong file name:</strong> Make sure it's exactly <code>.env.local</code></li>
+            <li><strong>Wrong file name:</strong> Make sure it&apos;s exactly <code>.env.local</code></li>
           </ul>
         </div>
       </div>

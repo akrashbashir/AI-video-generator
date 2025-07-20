@@ -198,7 +198,7 @@ export default function TestAudioFreePage() {
         {isSpeaking && (
           <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
             <p className="text-green-700">
-              🔊 Speaking: "{text.length > 50 ? text.substring(0, 50) + '...' : text}"
+              🔊 Speaking: &quot;{text.length > 50 ? `${text.substring(0, 50)}...` : text}&quot;
             </p>
           </div>
         )}
@@ -207,11 +207,11 @@ export default function TestAudioFreePage() {
         <div className="mt-8 p-4 bg-blue-50 rounded-lg">
           <h3 className="font-semibold mb-2">How to use:</h3>
           <ol className="list-decimal list-inside space-y-1 text-sm">
-            <li>Select a voice from the dropdown (your browser's available voices)</li>
+            <li>Select a voice from the dropdown (your browser&apos;s available voices)</li>
             <li>Enter or paste your text (max 5000 characters)</li>
-            <li>Click "Speak Text" to hear the audio</li>
+            <li>Click &quot;Speak Text&quot; to hear the audio</li>
             <li>Use pause/resume/stop controls while speaking</li>
-            <li>This uses your browser's built-in speech synthesis (free!)</li>
+            <li>This uses your browser&apos;s built-in speech synthesis (free!)</li>
           </ol>
         </div>
 
