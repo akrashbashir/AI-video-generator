@@ -1,0 +1,1 @@
+export const VOICE_ID = '21m00Tcm4TlvDq8ikWAM'; // Default ElevenLabs voice ID
