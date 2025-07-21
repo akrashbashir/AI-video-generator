@@ -31,7 +31,9 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "**/*.ts",

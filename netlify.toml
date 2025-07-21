@@ -4,6 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  ELEVENLABS_API_KEY = "sk_452df26d411e39199db58ece6c4cc65e7a83d73e656d8825"
 
 [[redirects]]
   from = "/*"
